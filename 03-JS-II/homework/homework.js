@@ -162,7 +162,7 @@ function esPrimo(numero) {
 
   if (numero <2) return false
   for (let i = 2; i < numero; i++){
-    if (numero % 1 === 0) return true
+    if (numero % 1 === 0) return false
   }
 
   return true
