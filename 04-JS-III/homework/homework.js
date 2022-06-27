@@ -26,6 +26,11 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
+  var arr = [];
+  for (var i = 0; i < array.length; i++){
+    arr.push (array [i] + 1)
+  }
+  return arr;
 }
 
 
