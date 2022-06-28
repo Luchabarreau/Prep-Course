@@ -89,7 +89,7 @@ function verificarPassword (usuario, password) {
   // De lo contrario, devuelve "false"
   // Tu código:
   return usuario[password] === password
-  return false
+
 }
 
 function actualizarPassword (usuario, nuevaPassword) {
