@@ -189,18 +189,15 @@ function mesesDelAño(array) {
   while(i<array.length){
     if(array[i] === "Enero"){
       meses.push(array[i])
-    }elseif(array[i] === "Marzo"){
+    }elseif(array[i] === "Marzo");
       meses.push(array[i])
-    }elseif(array[i] === "Noviembre"){
+    }elseif(array[i] === "Noviembre");
       meses.push(array[i])
     }
     i = i + 1
-  }
   if(meses.length === 3) return meses
   return "No se encontraron los meses pedidos"
-  }
-  
-}
+
 
 
 function mayorACien(array) {
