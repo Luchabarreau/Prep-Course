@@ -229,7 +229,7 @@ function breakStatement(numero) {
   //Pista: usá el statement 'break'
   // Tu código:
   let newarray = []
-  for(let i = 0; i < 10; i++){
+  for(var i = 0; i < 10; i++){
     numero = numero +2;
     newarray.push(numero)
     if(numero===i)break;
