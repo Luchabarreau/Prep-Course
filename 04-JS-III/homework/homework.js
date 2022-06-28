@@ -188,14 +188,14 @@ function mesesDelAño(array) {
   let i = 0
   while(i<array.length){
     if(array[i] === "Enero"){
-      meses.push(array[i])
+      meses.push(array[i]);
     }elseif(array[i] === "Marzo");{
-      meses.push(array[i])
+      meses.push(array[i]);
     }elseif(array[i] === "Noviembre");{
-      meses.push(array[i])
+      meses.push(array[i]);
     }
+    i = i + 1
     }
-      i = i + 1
       if(meses.length === 3) return meses
       return "No se encontraron los meses pedidos"
     }
