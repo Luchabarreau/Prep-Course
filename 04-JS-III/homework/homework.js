@@ -247,8 +247,8 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
   let array3 = []
-  for(let i = 0; i < 10; i++){
-    if(i===5)continue;
+  for(var i = 0; i < 10; i++){
+    if(i===5) continue;
     numero = numero + 2
     array3.push(numero);
   }
