@@ -193,10 +193,11 @@ function mesesDelAño(array) {
       meses.push(array[i])
     }elseif(array[i] === "Noviembre");
       meses.push(array[i])
+      i = i + 1
+      if(meses.length === 3) return meses
+      return "No se encontraron los meses pedidos"
     }
-    i = i + 1
-  if(meses.length === 3) return meses
-  return "No se encontraron los meses pedidos"
+    
 
 
 
